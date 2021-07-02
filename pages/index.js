@@ -213,9 +213,9 @@ export default function Home() {
             aliquip ex ea commodo consequat.
           </p>
           <Charters>
-            {charters.map((item) => {
+            {charters.map((item, index) => {
               const { img, location } = item;
-              return <Charter img={img} location={location} />;
+              return <Charter key={index} img={img} location={location} />;
             })}
           </Charters>
         </Section>
