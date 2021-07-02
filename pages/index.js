@@ -26,7 +26,7 @@ const charters = [
   },
   {
     location: 'Victoria',
-    img: '/assets/Victoria.png',
+    img: '/assets/victoria.png',
   },
 ];
 
